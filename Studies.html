@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script></script>
+    <style>
+        body{margin:0; padding:0; font-family: Arial, Tahoma;}
+        .header{
+            background: #333;
+            color: #FFF;
+            font-size: 20px;
+            text-align: center;
+            padding: 20px 0
+        }
+        .navigation{
+            background: #DDD;
+            color: #676767;
+            text-align: center;
+        }
+
+        ul {list-style:none; padding: 0; margin:0}
+        ul li{display:inline-block; padding:10px}
+
+        .content{
+            text-align: center;
+            padding: 20px 0
+        }
+        .footer{
+            position: fixed;
+            left: 0;
+            bottom: 0px;
+            width: 100%;
+            background: #333;
+            color: #FFF;
+            text-align: center;
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+            /* Create two unequal columns that floats next to each other */
+        .column {
+            float: left;
+            padding:10px;
+            height: 550px;
+            
+            }
+
+        .left {
+            width: 25%;
+            text-align: right;
+            }
+
+        .right {
+            width: 75%;
+            text-align: left;
+            }
+
+            /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="header">Portfolio</div>
+    <div class="navigation">
+        <ul>
+            <li><a href="index.html">Startpagina</a></li>
+            <li><a href="Studies.html">Studies</a></li>
+            <li><a href="Werkervaring.html">Werkervaring</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li><a href="Contact.html">Contact</a> </li>
+        </ul>    
+    </div>
+
+    <div class="row">
+        <div class="column left" style="background-color:#aaa;">
+          <h2> ACADEMIEJAAR</h2>
+          <br>
+          <h2>01-08/2020</h2>
+          <br><br><br>
+          <h2>2004-2007</h2>
+          <br><br><br>
+          <h2>1997-2004</h2>
+        </div>
+        <div class="column right" style="background-color:#bbb;">
+          <h2>STUDIES</h2>
+          <br>
+          <h2>Obelisk/Multimedi</h2>
+          <p>Webontwikkelaar</p>
+          <br>
+          <h2>Erasmushogeschool Brussel</h2>
+          <p>Lerarenopleiding S.O.</p>
+          <br>
+          <h2>Koninklijk Atheneum Zaventem</h2>
+          <p>Administratie en gegevensbeheer</p>
+        </div>
+      </div>
+
+    <div class="footer">
+        Copyright &copy; 2020 All Right Reserved To Web Dev &reg; Team
+    </div>
+    
+</body>
+</html>
